@@ -1,0 +1,151 @@
+
+* {
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #147;
+}
+a:hover {
+    color: #ac4;
+}
+#notice {
+    height: 110px;
+    position: relative;
+}
+#notice_box {
+    background: #eca none repeat scroll 0 0;
+    height: 100px;
+    left: 20px;
+    position: absolute;
+    top: 10px;
+    width: 1020px;
+}
+#notice_text {
+    left: 20px;
+    position: absolute;
+    top: 10px;
+    width: 1020px;
+}
+#notice p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 12px;
+}
+#web_body {
+    position: relative;
+}
+#header {
+    left: 380px;
+    margin-top: 10px;
+    padding: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+    width: 500px;
+}
+#split {
+    background: #ac4 none repeat scroll 0 0;
+    height: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 80px;
+    width: 1020px;
+}
+#main {
+    left: 280px;
+    position: absolute;
+    top: 100px;
+    width: 500px;
+}
+#main h1 {
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 40px;
+}
+#main p {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+#main ul, #main ol {
+    margin: 20px;
+}
+#main li {
+    font-size: 15px;
+    line-height: 20px;
+}
+#main ul li {
+    list-style-type: square;
+}
+#sidebar_left {
+    left: 20px;
+    padding: 20px 20px 0 0;
+    position: absolute;
+    text-align: right;
+    top: 100px;
+    width: 200px;
+}
+#sidebar_left h2 {
+    color: #333;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#sidebar_left ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+#sidebar_left li {
+    font-size: 14px;
+    line-height: 20px;
+}
+#index_box {
+    background: #eee none repeat scroll 0 0;
+    height: 580px;
+    left: 20px;
+    position: absolute;
+    top: 100px;
+    width: 220px;
+}
+#kernel_box {
+    background: #eee none repeat scroll 0 0;
+    height: 210px;
+    left: 800px;
+    position: absolute;
+    top: 100px;
+    width: 170px;
+}
+#sidebar_right {
+    left: 810px;
+    padding: 20px 20px 0 0;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 200px;
+}
+#sidebar_right h2 {
+    color: #333;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#sidebar_right ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+#sidebar_right li {
+    font-size: 14px;
+    line-height: 20px;
+}
