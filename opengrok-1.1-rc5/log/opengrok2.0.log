@@ -1,0 +1,92 @@
+2017-07-21 18:20:48.206+0800 FINE t1 Executor.registerErrorHandler: Installing default uncaught exception handler
+2017-07-21 18:20:48.480+0800 FINE t1 Executor.exec: Executing command [/usr/bin/ctags-exuberant, --version] in directory /local/software
+2017-07-21 18:20:48.645+0800 FINE t1 Executor.exec: Finished command [/usr/bin/ctags-exuberant, --version] in directory /local/software
+2017-07-21 18:20:48.648+0800 INFO t1 Indexer.prepareIndexer: Scanning for repositories...
+2017-07-21 18:20:48.652+0800 FINE t1 Executor.exec: Executing command [accurev, info] in directory /local/software
+2017-07-21 18:20:48.656+0800 FINE t1 Executor.exec: Executing command [/usr/bin/git, --help] in directory /local/software
+2017-07-21 18:20:48.661+0800 FINE t1 Executor.exec: Finished command [/usr/bin/git, --help] in directory /local/software
+2017-07-21 18:20:48.668+0800 FINE t1 Executor.exec: Executing command [/usr/bin/git, log, -1, --pretty=%cd: %h %an %s, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:48.673+0800 FINE t1 Executor.exec: Finished command [/usr/bin/git, log, -1, --pretty=%cd: %h %an %s, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:48.674+0800 WARNING t1 RepositoryFactory.getRepository: Failed to determineCurrentVersion for /local/codebase/build: java.io.IOException: fatal: Not a git repository (or any parent up to mount point /local)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2017-07-21 18:20:48.678+0800 FINE t1 Executor.exec: Executing command [cleartool, -version] in directory /local/software
+2017-07-21 18:20:48.680+0800 FINE t1 Executor.exec: Executing command [p4, help] in directory /local/software
+2017-07-21 18:20:48.774+0800 FINE t26 Executor.exec: Executing command [/usr/bin/git, --help] in directory /local/software
+2017-07-21 18:20:48.779+0800 FINE t26 Executor.exec: Finished command [/usr/bin/git, --help] in directory /local/software
+2017-07-21 18:20:48.786+0800 FINE t26 Executor.exec: Executing command [/usr/bin/git, log, -1, --pretty=%cd: %h %an %s, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:48.790+0800 FINE t26 Executor.exec: Finished command [/usr/bin/git, log, -1, --pretty=%cd: %h %an %s, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:48.794+0800 WARNING t26 RepositoryFactory.getRepository: Failed to determineCurrentVersion for /local/codebase/build: java.io.IOException: fatal: Not a git repository (or any parent up to mount point /local)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2017-07-21 18:20:48.800+0800 INFO t1 Indexer.prepareIndexer: Done scanning for repositories (0s)
+2017-07-21 18:20:48.818+0800 INFO t1 Indexer.prepareIndexer: Writing configuration to /local/software/opengrok/etc/configuration.xml
+2017-07-21 18:20:49.143+0800 INFO t1 Indexer.prepareIndexer: Done...
+2017-07-21 18:20:49.145+0800 INFO t1 Indexer.prepareIndexer: Generating history cache for all repositories ...
+2017-07-21 18:20:49.147+0800 FINE t1 FileHistoryCache.getLatestCachedRevision: not loading latest cached revision file from /local/software/opengrok-1.1-rc5/data/historycache/OpenGroklatestRev
+2017-07-21 18:20:49.148+0800 INFO t1 HistoryGuru.createCacheReal: Creating historycache for 1 repositories
+2017-07-21 18:20:49.155+0800 FINE t31 Executor.exec: Executing command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:49.161+0800 FINE t31 Executor.exec: Finished command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:49.163+0800 WARNING t31 Executor.exec: Non-zero exit status 128 from command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build: fatal: Not a git repository (or any parent up to mount point /local)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2017-07-21 18:20:49.166+0800 WARNING t31 HistoryGuru.createCache: An error occured while creating cache for /local/codebase/build (GitRepository)
+org.opensolaris.opengrok.history.HistoryException: Failed to get history for: "/local/codebase/build" Exit code: 128
+	at org.opensolaris.opengrok.history.GitHistoryParser.parse(GitHistoryParser.java:165)
+	at org.opensolaris.opengrok.history.GitRepository.getHistory(GitRepository.java:520)
+	at org.opensolaris.opengrok.history.Repository.createCache(Repository.java:320)
+	at org.opensolaris.opengrok.history.HistoryGuru.createCache(HistoryGuru.java:508)
+	at org.opensolaris.opengrok.history.HistoryGuru.access$000(HistoryGuru.java:56)
+	at org.opensolaris.opengrok.history.HistoryGuru$1.run(HistoryGuru.java:559)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-21 18:20:49.173+0800 INFO t1 Statistics.report: Done historycache for all repositories (took 26 ms)
+2017-07-21 18:20:49.174+0800 INFO t1 Indexer.prepareIndexer: Done...
+2017-07-21 18:20:49.177+0800 INFO t1 Indexer.doIndexerExecution: Starting indexing
+2017-07-21 18:20:50.072+0800 FINE t35 Executor.exec: Executing command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.072+0800 FINE t36 Executor.exec: Executing command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.072+0800 FINE t34 Executor.exec: Executing command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.072+0800 FINE t33 Executor.exec: Executing command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.078+0800 FINE t35 Executor.exec: Finished command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.083+0800 FINE t36 Executor.exec: Finished command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.083+0800 WARNING t35 Executor.exec: Non-zero exit status 128 from command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build: fatal: Not a git repository (or any parent up to mount point /local)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2017-07-21 18:20:50.086+0800 WARNING t36 Executor.exec: Non-zero exit status 128 from command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build: fatal: Not a git repository (or any parent up to mount point /local)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2017-07-21 18:20:50.090+0800 WARNING t35 HistoryGuru.createCache: An error occured while creating cache for /local/codebase/build (GitRepository)
+org.opensolaris.opengrok.history.HistoryException: Failed to get history for: "/local/codebase/build" Exit code: 128
+	at org.opensolaris.opengrok.history.GitHistoryParser.parse(GitHistoryParser.java:165)
+	at org.opensolaris.opengrok.history.GitRepository.getHistory(GitRepository.java:520)
+	at org.opensolaris.opengrok.history.Repository.createCache(Repository.java:320)
+	at org.opensolaris.opengrok.history.HistoryGuru.createCache(HistoryGuru.java:508)
+	at org.opensolaris.opengrok.history.HistoryGuru.ensureHistoryCacheExists(HistoryGuru.java:703)
+	at org.opensolaris.opengrok.index.IndexDatabase.update(IndexDatabase.java:365)
+	at org.opensolaris.opengrok.index.IndexDatabase$2.run(IndexDatabase.java:184)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-21 18:20:50.095+0800 FINE t34 Executor.exec: Finished command [/usr/bin/git, log, --abbrev-commit, --abbrev=8, --name-only, --pretty=fuller, --date=rfc] in directory /local/codebase/build
+2017-07-21 18:20:50.092+0800 WARNING t36 HistoryGuru.createCache: An error occured while creating cache for /local/codebase/build (GitRepository)
+org.opensolaris.opengrok.history.HistoryException: Failed to get history for: "/local/codebase/build" Exit code: 128
+	at org.opensolaris.opengrok.history.GitHistoryParser.parse(GitHistoryParser.java:165)
+	at org.opensolaris.opengrok.history.GitRepository.getHistory(GitRepository.java:520)
+	at org.opensolaris.opengrok.history.Repository.createCache(Repository.java:320)
+	at org.opensolaris.opengrok.history.HistoryGuru.createCache(HistoryGuru.java:508)
+	at org.opensolaris.opengrok.history.HistoryGuru.ensureHistoryCacheExists(HistoryGuru.java:703)
+	at org.opensolaris.opengrok.index.IndexDatabase.update(IndexDatabase.java:365)
+	at org.opensolaris.opengrok.index.IndexDatabase$2.run(IndexDatabase.java:184)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+

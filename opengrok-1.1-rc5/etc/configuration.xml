@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_131" class="java.beans.XMLDecoder">
+ <object class="org.opensolaris.opengrok.configuration.Configuration" id="Configuration0">
+  <void property="allowLeadingWildcard">
+   <boolean>true</boolean>
+  </void>
+  <void property="cmds">
+   <object class="java.util.Collections" method="unmodifiableMap">
+    <object class="java.util.HashMap">
+     <void method="put">
+      <string>org.opensolaris.opengrok.history.GitRepository</string>
+      <string>/usr/bin/git</string>
+     </void>
+     <void method="put">
+      <string>org.opensolaris.opengrok.history.ClearCaseRepository</string>
+      <string>cleartool</string>
+     </void>
+     <void method="put">
+      <string>org.opensolaris.opengrok.history.PerforceRepository</string>
+      <string>p4</string>
+     </void>
+    </object>
+   </object>
+  </void>
+  <void property="ctags">
+   <string>/usr/bin/ctags-exuberant</string>
+  </void>
+  <void property="dataRoot">
+   <string>/local/software/opengrok-1.1-rc5/data</string>
+  </void>
+  <void id="IgnoredNames0" property="ignoredNames">
+   <void id="IgnoredDirs0" property="ignoredDirs">
+    <void property="items">
+     <void method="add">
+      <string>.bk</string>
+     </void>
+     <void method="add">
+      <string>.hg</string>
+     </void>
+     <void method="add">
+      <string>.bzr</string>
+     </void>
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.svn</string>
+     </void>
+     <void method="add">
+      <string>SCCS</string>
+     </void>
+     <void method="add">
+      <string>.razor</string>
+     </void>
+     <void method="add">
+      <string>RCS</string>
+     </void>
+     <void method="add">
+      <string>CVS</string>
+     </void>
+     <void method="add">
+      <string>CVSROOT</string>
+     </void>
+     <void method="add">
+      <string>.repo</string>
+     </void>
+    </void>
+   </void>
+   <void id="IgnoredFiles0" property="ignoredFiles">
+    <void property="items">
+     <void method="add">
+      <string>.hgtags</string>
+     </void>
+     <void method="add">
+      <string>.hgignore</string>
+     </void>
+     <void method="add">
+      <string>.p4config</string>
+     </void>
+     <void method="add">
+      <string>.cvsignore</string>
+     </void>
+    </void>
+   </void>
+  </void>
+  <void property="projects">
+   <void method="put">
+    <string>core</string>
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="name">
+      <string>core</string>
+     </void>
+     <void property="path">
+      <string>/core</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>libs</string>
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="name">
+      <string>libs</string>
+     </void>
+     <void property="path">
+      <string>/libs</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>tools</string>
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="name">
+      <string>tools</string>
+     </void>
+     <void property="path">
+      <string>/tools</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>target</string>
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="name">
+      <string>target</string>
+     </void>
+     <void property="path">
+      <string>/target</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="remoteScmSupported">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>org.opensolaris.opengrok.configuration.Configuration$RemoteSCM</class>
+    <string>ON</string>
+   </object>
+  </void>
+  <void property="repositories">
+   <void method="add">
+    <object class="org.opensolaris.opengrok.history.RepositoryInfo">
+     <void property="datePatterns">
+      <array class="java.lang.String" length="2">
+       <void index="0">
+        <string>EE, d MMM yyyy HH:mm:ss Z</string>
+       </void>
+       <void index="1">
+        <string>d MMM yyyy HH:mm:ss Z</string>
+       </void>
+      </array>
+     </void>
+     <void property="directoryName">
+      <string>/local/codebase/build</string>
+     </void>
+     <void property="type">
+      <string>git</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="sourceRoot">
+   <string>/local/codebase/build</string>
+  </void>
+ </object>
+</java>

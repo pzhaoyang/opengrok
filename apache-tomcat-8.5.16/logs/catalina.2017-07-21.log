@@ -1,0 +1,91 @@
+21-Jul-2017 18:45:26.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.16
+21-Jul-2017 18:45:26.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 21 2017 17:01:09 UTC
+21-Jul-2017 18:45:26.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.16.0
+21-Jul-2017 18:45:26.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jul-2017 18:45:26.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-31-generic
+21-Jul-2017 18:45:26.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jul-2017 18:45:26.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /local/software/jdk1.8.0_131/jre
+21-Jul-2017 18:45:26.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+21-Jul-2017 18:45:26.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jul-2017 18:45:26.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /local/software/apache-tomcat-8.5.16
+21-Jul-2017 18:45:26.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /local/software/apache-tomcat-8.5.16
+21-Jul-2017 18:45:26.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/local/software/apache/conf/logging.properties
+21-Jul-2017 18:45:26.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jul-2017 18:45:26.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jul-2017 18:45:26.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jul-2017 18:45:26.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/local/software/apache
+21-Jul-2017 18:45:26.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/local/software/apache
+21-Jul-2017 18:45:26.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/local/software/apache/temp
+21-Jul-2017 18:45:26.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Jul-2017 18:45:26.881 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jul-2017 18:45:26.978 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2017 18:45:26.986 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2017 18:45:26.991 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2017 18:45:26.993 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2456 ms
+21-Jul-2017 18:45:27.099 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jul-2017 18:45:27.100 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.16
+21-Jul-2017 18:45:27.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/local/software/apache-tomcat-8.5.16/webapps/examples]
+21-Jul-2017 18:45:28.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/local/software/apache-tomcat-8.5.16/webapps/examples] has finished in [1,746] ms
+21-Jul-2017 18:45:28.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/local/software/apache-tomcat-8.5.16/webapps/manager]
+21-Jul-2017 18:45:28.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/local/software/apache-tomcat-8.5.16/webapps/manager] has finished in [43] ms
+21-Jul-2017 18:45:28.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/local/software/apache-tomcat-8.5.16/webapps/host-manager]
+21-Jul-2017 18:45:28.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/local/software/apache-tomcat-8.5.16/webapps/host-manager] has finished in [27] ms
+21-Jul-2017 18:45:28.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/local/software/apache-tomcat-8.5.16/webapps/docs]
+21-Jul-2017 18:45:28.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/local/software/apache-tomcat-8.5.16/webapps/docs] has finished in [22] ms
+21-Jul-2017 18:45:28.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/local/software/apache-tomcat-8.5.16/webapps/ROOT]
+21-Jul-2017 18:45:29.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/local/software/apache-tomcat-8.5.16/webapps/ROOT] has finished in [68] ms
+21-Jul-2017 18:45:29.080 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jul-2017 18:45:29.094 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2017 18:45:29.101 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2108 ms
+21-Jul-2017 18:46:19.100 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/local/software/apache-tomcat-8.5.16/webapps/source.war]
+21-Jul-2017 18:46:20.124 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jul-2017 18:46:20.655 WARNING [localhost-startStop-2] org.opensolaris.opengrok.authorization.AuthorizationFramework.reload Plugin directory not found or not readable: /local/opengrok_dataroot/data/../plugins. All requests allowed.
+21-Jul-2017 18:46:20.684 INFO [localhost-startStop-2] org.opensolaris.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+ java.io.FileNotFoundException: /local/opengrok_dataroot/data/statistics.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.opensolaris.opengrok.configuration.RuntimeEnvironment.loadStatistics(RuntimeEnvironment.java:1529)
+	at org.opensolaris.opengrok.configuration.RuntimeEnvironment.loadStatistics(RuntimeEnvironment.java:1515)
+	at org.opensolaris.opengrok.web.WebappListener.contextInitialized(WebappListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4745)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5207)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:988)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+21-Jul-2017 18:46:20.692 INFO [localhost-startStop-2] org.opensolaris.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+ java.io.FileNotFoundException: /local/opengrok_dataroot/data/statistics.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.opensolaris.opengrok.configuration.RuntimeEnvironment.loadStatistics(RuntimeEnvironment.java:1529)
+	at org.opensolaris.opengrok.configuration.RuntimeEnvironment.loadStatistics(RuntimeEnvironment.java:1515)
+	at org.opensolaris.opengrok.web.WebappListener.contextInitialized(WebappListener.java:122)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4745)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5207)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:988)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+21-Jul-2017 18:46:25.088 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/local/software/apache-tomcat-8.5.16/webapps/source.war] has finished in [5,989] ms
+21-Jul-2017 18:47:04.371 INFO [configurationListener] org.opensolaris.opengrok.configuration.RuntimeEnvironment.applyConfig Configuration updated: /local/codebase/bd
+21-Jul-2017 18:47:04.398 WARNING [configurationListener] org.opensolaris.opengrok.authorization.AuthorizationFramework.reload Plugin directory not found or not readable: /local/opengrok_dataroot/data/../plugins. All requests allowed.
+21-Jul-2017 18:49:00.117 INFO [configurationListener] org.opensolaris.opengrok.configuration.RuntimeEnvironment.applyConfig Configuration updated: /local/codebase/bd
+21-Jul-2017 18:49:00.146 WARNING [configurationListener] org.opensolaris.opengrok.authorization.AuthorizationFramework.reload Plugin directory not found or not readable: /local/opengrok_dataroot/data/../plugins. All requests allowed.
